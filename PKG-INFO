@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pygrib
+Version: 1.9.6
+Summary: Python module for reading/writing GRIB files
+Home-page: http://code.google.com/p/pygrib
+Author: Jeff Whitaker
+Author-email: jeffrey.s.whitaker@noaa.gov
+License: UNKNOWN
+Download-URL: http://code.google.com/p/pygrib/downloads/list
+Description: UNKNOWN
+Platform: UNKNOWN
