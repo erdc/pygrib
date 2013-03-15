@@ -16,8 +16,7 @@ Make sure first that the appropriate configuration scripts
 pertaining to your system are defined. You will need the
 following scripts to be defined
 
-::
-
+:
   ${PROTEUS}/externalPackages/versionsConfig/versions.${PROTEUS_ARCH}
   ${PROTEUS}/externalPackages/jasperConfig/configure.${PROTEUS_ARCH}
   ${PROTEUS}/externalPackages/grib_apiConfig/configure.${PROTEUS_ARCH}
@@ -27,7 +26,7 @@ For manual installation of PYGRIB you will to install the
 following dependecies first (if you're doing it away from 
 a full build of all externalPackages within Proteus)
 
-::
+:
 
   JASPER
   GRIB_API
@@ -35,13 +34,13 @@ a full build of all externalPackages within Proteus)
 
 You do so in externalPackages directory 
 
-::
+:
 
   cd ${PROTEUS}/externalPackages
 
 and installing each via
 
-::
+:
 
   make install_jasper
   make install_grib_api
@@ -49,7 +48,7 @@ and installing each via
 
 Then finally you can install and test PYGRIB by
 
-::
+:
   make install_pygrib
   make test_pygrib
 
